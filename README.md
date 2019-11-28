@@ -6,8 +6,9 @@ service manual [here](https://docs.google.com/uc?id=0B7jy8h0yRBccRnhyb2hGRWNBZ2s
 ## Setup
 
 - Download and install [Docker](https://docs.docker.com/v17.12/install/).
-- Clone this repository
-- Copy the `root` directory from the zip you downloaded above into the cloned repository and rename it to `public_html`
-- Start the services with `./start.sh`
-- Once the services boot, setup the environment and database with `./setup.sh`
-- You can stop the services with `./stop.sh`
+- Clone this repository.
+- Copy the `root` directory from the zip you downloaded above into the cloned repository and rename it to `public_html`.
+- Start the services with `./start.sh`.
+- Once the services boot, setup the environment and database with `./setup.sh`. You only need to run this once.
+- Once started and initiailzed, you can browse to http://localhost to access the manual.
+- You can stop the services with `./stop.sh`.
